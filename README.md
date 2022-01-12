@@ -8,10 +8,10 @@ Requirements:
 - Arduino Mega 2560
 - Arduino Mega Motor Shield
 
-This Repo includes 3 .ino files for controlling the links
-  pd: standard PID controller without the integral term
-  joint_space: computed torque method, requires inverse kinematics (calc_q2_q3.h)
-  operational_space: torque equations solved taking the inverse of the Jacobian. No need for inverse kinematics
+This Repo includes 3 .ino files for controlling the links:
+- pd: standard PID controller without the integral term
+- joint_space: computed torque method, requires inverse kinematics (calc_q2_q3.h)
+- operational_space: torque equations solved taking the inverse of the Jacobian. No need for inverse kinematics
   
 //      Setup     
 //        N2>
