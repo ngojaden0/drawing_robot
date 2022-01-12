@@ -5,6 +5,7 @@ Arduino code for a 2 DOF drawing robot using two motors.
 Requirements:
 - 3D printed linkages. Check lengths of links to avoid constraints
 - 2 Motors (Gear ratios calculated)
+- 2 Encoders (readPinFast.h)
 - Arduino Mega 2560
 - Arduino Mega Motor Shield
 
