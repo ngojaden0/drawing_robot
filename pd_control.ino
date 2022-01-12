@@ -1,8 +1,6 @@
- #include "readPinFast.h"
+#include "readPinFast.h"
 #include "enc_1.h"
 #include "mot_1.h"
-
-
 
 void setup()
 {
