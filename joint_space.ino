@@ -2,7 +2,6 @@
 #include "enc_1.h"
 #include "mot_1.h"
 
-
 void setup()
 {
   Serial.begin(9600);
@@ -34,7 +33,6 @@ double L = 0.1, W = 0.05;
 
 void loop() 
 {
-  
   q1_new = getEnc1();
 
   t_new = millis()/1000.0; //tf always up to date in seconds
