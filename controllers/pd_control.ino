@@ -1,3 +1,5 @@
+//Single link joint
+
 #include "readPinFast.h"
 #include "enc_1.h"
 #include "mot_1.h"
@@ -27,7 +29,7 @@ double R = 4.5;
 void loop() 
 {
   q1 = getEnc1();
-
+  q4 = get
   t_new = millis()/1000.0; //tf always up to date in seconds
   t_span = t_new - t_old; //dt, tf-to
   t_old = t_new; //update to
